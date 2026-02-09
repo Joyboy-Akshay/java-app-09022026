@@ -2,7 +2,9 @@ package com.codegnan.javaapp09022026.mathematics.twodshapes;
 
 import com.codegnan.javaapp09022026.mathematics.shapes.TwoDShapes;
 
-public class Square extends TwoDShapes{
+import com.codegnan.javaapp09022026.shape.Shape;
+
+public class Square extends TwoDShapes implements Shape{
 	int side;
 	
 	public Square(int side){

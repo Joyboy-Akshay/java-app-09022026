@@ -1,8 +1,9 @@
 package com.codegnan.javaapp09022026.mathematics.twodshapes;
 
 import com.codegnan.javaapp09022026.mathematics.shapes.TwoDShapes;
+import com.codegnan.javaapp09022026.shape.Shape;
 
-public class Rectangle extends TwoDShapes{
+public class Rectangle extends TwoDShapes implements Shape{
 	int length;
 	int width;
 	public Rectangle(int length , int width){
